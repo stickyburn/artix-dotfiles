@@ -3,14 +3,14 @@
   "default_agent": "build",
   "agents": {
     "title": {
-      "model": "ollama-cloud/glm-5.3-flash"
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017"
     },
     "plan": {
       "model": "ollama-cloud/glm-5.3#max",
       "color": "#c79eff"
     },
     "build": {
-      "model": "ollama-cloud/glm-5.3-flash#max",
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max",
       "color": "#98e4a7"
     }
   },
@@ -29,7 +29,7 @@
           "core"
         ],
         "environment": {
-          "AGENT_BROWSER_CONFIG": "/home/lemonaid/.config/agent-browser/config.json"
+          "AGENT_BROWSER_CONFIG": "{env:HOME}/.config/agent-browser/config.json"
         }
       }
     }
