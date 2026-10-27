@@ -33,7 +33,7 @@
     "deny": [],
     "defaultMode": "default"
   },
-  "model": "opus",
+  "model": "fable",
   "effortLevel": "xhigh",
   "modelSettings": {
     "claude-fable-5": {
@@ -52,6 +52,6 @@
   "promptSuggestionEnabled": false,
   "showThinkingSummaries": true,
   "skipWorkflowUsageWarning": true,
-  "theme": "custom:hyprway",
+  "theme": "custom:hyprway-light",
   "verbose": false
 }

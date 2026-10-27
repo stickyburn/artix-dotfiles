@@ -228,11 +228,13 @@ window#waybar.hidden {
 tooltip {
   background: @elevated_bg;
   color: @foreground;
+  text-shadow: none;
   border: 1px solid @focus;
   border-radius: 7px;
 }
 
 tooltip label {
+  color: @foreground;
   font-family: "Switzer";
   font-size: 13px;
   min-width: 80px;

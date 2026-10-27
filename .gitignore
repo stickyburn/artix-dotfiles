@@ -52,6 +52,7 @@ claude/.credentials.json
 claude/.claude.json
 claude/history.jsonl
 claude/projects/
+claude/plans/
 claude/file-history/
 claude/sessions/
 claude/session-env/
@@ -63,8 +64,9 @@ claude/plugins/
 claude/.last-cleanup
 claude/.last-update-result.json
 claude/policy-limits.json
-claude/policy-limits.json.stamp.json
+claude/policy-limits.json.*
 claude/remote-settings.json
+claude/remote-settings.json.*
 claude/paste-cache/
 claude/skills/synced/
 claude/daemon*
