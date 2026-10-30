@@ -12,6 +12,7 @@
   "control-center-width": 400,
   "control-center-height": 720,
   "notification-window-width": 300,
+  "notification-window-height": 300,
   "fit-to-screen": false,
   "timeout": 7,
   "timeout-low": 4,
@@ -19,20 +20,22 @@
   "keyboard-shortcuts": true,
   "notification-grouping": true,
   "notification-inline-replies": true,
+  "notification-visibility": {
+    "all-transient": {
+      "state": "transient",
+      "app-name": ".*"
+    }
+  },
   "image-visibility": "when-available",
   "transition-time": 150,
   "hide-on-clear": false,
   "hide-on-action": true,
-  "text-empty": "All caught up",
-  "widgets": ["title", "buttons-grid", "buttons-grid#nightlight", "slider#nightlight", "buttons-grid#utilities", "mpris", "volume", "dnd", "buttons-grid#clear", "notifications"],
+  "text-empty": "",
+  "widgets": ["title", "buttons-grid", "buttons-grid#nightlight", "slider#nightlight", "mpris", "volume", "dnd", "notifications"],
   "widget-config": {
     "title": {
       "text": "Control center",
       "clear-all-button": false
-    },
-    "buttons-grid#clear": {
-      "buttons-per-row": 1,
-      "actions": [{ "label": "Clear all", "command": "swaync-client -C" }]
     },
     "buttons-grid": {
       "buttons-per-row": 2,
@@ -74,13 +77,6 @@
       "value_scale": 0,
       "cmd_getter": "$HOME/.config/mango/scripts/restart_wlsunset.sh get",
       "cmd_setter": "$HOME/.config/mango/scripts/restart_wlsunset.sh set $value"
-    },
-    "buttons-grid#utilities": {
-      "buttons-per-row": 2,
-      "actions": [
-        { "label": "Audio", "command": "pavucontrol" },
-        { "label": "Monitor", "command": "$HOME/.config/waybar/scripts/launch_btop.sh" }
-      ]
     },
     "volume": {
       "label": "Volume",
