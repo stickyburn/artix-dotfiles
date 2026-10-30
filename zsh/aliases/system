@@ -1,6 +1,7 @@
 alias grep='rg'
 alias l='ls -a'
 alias e='yazi'
+alias cal='cal --monday --week'
 
 rpull() { rclone sync "$1" "$2" --filter-from ~/.config/rclone/filters.txt --progress; }
 rpush() { rclone copy "$1" "$2" --filter-from ~/.config/rclone/filters.txt --progress; }

@@ -3,6 +3,7 @@ source "$ZDOTDIR/secrets/secrets.zsh"
 source "$ZDOTDIR/theme.zsh"
 
 export LG_CONFIG_FILE="$XDG_CONFIG_HOME/lazygit/config.yml,$XDG_CONFIG_HOME/lazygit/theme.yml"
+export TIME_STYLE=long-iso
 
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(zoxide init zsh)"
