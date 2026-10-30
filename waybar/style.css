@@ -4,7 +4,7 @@
   border: none;
   border-radius: 0;
   box-shadow: none;
-  font-family: "Switzer", "Maple Mono NF";
+  font-family: "Optimistic Text", "Maple Mono NF";
   font-size: 13px;
   min-height: 0;
 }
@@ -166,7 +166,7 @@ window#waybar.hidden {
   border-radius: 8px;
   margin: 4px 12px 0 8px;
   padding: 0 12px;
-  font-family: "Switzer";
+  font-family: "Optimistic Text";
   font-weight: 500;
   transition-property: background-color, border-color, color, opacity;
   transition-duration: 170ms;
@@ -235,7 +235,7 @@ tooltip {
 
 tooltip label {
   color: @foreground;
-  font-family: "Switzer";
+  font-family: "Optimistic Text";
   font-size: 13px;
   min-width: 80px;
   padding: 5px 7px;

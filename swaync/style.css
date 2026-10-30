@@ -26,7 +26,7 @@
 }
 
 * {
-  font-family: "Switzer";
+  font-family: "Optimistic Text";
   font-size: 13px;
 }
 
@@ -136,14 +136,6 @@
   font-size: 13px;
 }
 
-/* Pair the native DnD switch and clear-all button on one compact row. */
-.widget-dnd {
-  margin-right: calc(var(--control-column-width) + 4px);
-}
-
-.widget-buttons-grid.clear {
-  margin: calc(0px - var(--control-row-height) - 8px) 0 0 var(--control-column-width);
-}
 
 .control-center switch {
   background: @border;
@@ -207,4 +199,9 @@
 .control-center .control-center-list-placeholder {
   color: @foreground_muted;
   opacity: 1;
+}
+
+/* Hide the built-in placeholder bell icon (text-empty already blanked). */
+.control-center .control-center-list-placeholder image {
+  opacity: 0;
 }

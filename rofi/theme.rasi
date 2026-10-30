@@ -14,7 +14,7 @@
     on-accent: #2a1d31;
 
     surface: #22112AE6;
-    font: "Switzer 10";
+    font: "Optimistic Text 10";
     background-color: transparent;
     text-color: @foreground-muted;
 }
@@ -44,7 +44,7 @@ prompt {
 
 entry {
     text-color: @foreground;
-    font: "Switzer 12";
+    font: "Optimistic Text 12";
 }
 
 listview {

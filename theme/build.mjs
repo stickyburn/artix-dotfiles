@@ -68,7 +68,7 @@ function renderRofi(schemeRoles) {
 ${roleLines.join("\n")}
 
     surface: ${color("surface")}E6;
-    font: "Switzer 10";
+    font: "Optimistic Text 10";
     background-color: transparent;
     text-color: @foreground-muted;
 }
@@ -98,7 +98,7 @@ prompt {
 
 entry {
     text-color: @foreground;
-    font: "Switzer 12";
+    font: "Optimistic Text 12";
 }
 
 listview {
