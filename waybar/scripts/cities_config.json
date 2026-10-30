@@ -3,7 +3,6 @@
     {
       "weather_name": "New Delhi, DL",
       "timezone": "Asia/Kolkata",
-      "display_name": "India",
       "short_code": "IND",
       "latitude": "28.6448",
       "longitude": "77.2167"
@@ -11,7 +10,6 @@
     {
       "weather_name": "Greenville, SC",
       "timezone": "America/New_York",
-      "display_name": "South Carolina",
       "short_code": "USA",
       "latitude": "34.8526",
       "longitude": "-82.3940"
@@ -19,7 +17,6 @@
     {
       "weather_name": "London",
       "timezone": "Europe/London",
-      "display_name": "London",
       "short_code": "UK",
       "latitude": "51.5073",
       "longitude": "-0.1275"

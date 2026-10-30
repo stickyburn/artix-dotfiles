@@ -29,7 +29,7 @@
     },
     "custom/multi-weather": {
         "format": "{}",
-        "interval": 1800,
+        "interval": 7200,
         "exec": "~/.config/waybar/scripts/city.sh weather",
         "return-type": "json",
         "signal": 10
@@ -68,7 +68,7 @@
         "format": "{icon}",
         "format-icons": {
             "notification": "󱅫",
-            "none": "󰂚",
+            "none": "󰋜",
             "dnd-notification": "󰂠",
             "dnd-none": "󰂛",
             "inhibited-notification": "󰂠",
@@ -87,6 +87,7 @@
         "format": "{}",
         "interval": 2,
         "exec": "~/.config/waybar/scripts/network_status.sh",
-        "return-type": "json"
+        "return-type": "json",
+        "on-click": "~/.config/waybar/scripts/launch_btop.sh"
     }
 }

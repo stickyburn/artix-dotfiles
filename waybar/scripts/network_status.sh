@@ -39,7 +39,7 @@ if [[ -r "$state_file" ]] &&
         }')
     blocks=(▁ ▂ ▃ ▄ ▅ ▆ ▇ █)
     meter="${blocks[level]}"
-    tooltip+=$'\n'"↓ $down Mbps      ↑ $up Mbps"
+    # tooltip+=$'\n'"↓ $down Mbps      ↑ $up Mbps"
 fi
 
 printf '%s %s %s %s\n' "$interface" "$now" "$rx" "$tx" > "$state_file"
