@@ -3,14 +3,14 @@
   "default_agent": "build",
   "agents": {
     "title": {
-      "model": "ollama-cloud/deepseek-v4.1-flash:1017"
+      "model": "ollama-cloud/mimo-v2.6-pro"
     },
     "plan": {
-      "model": "ollama-cloud/glm-5.3#max",
+      "model": "ollama-cloud/mimo-v2.6-pro",
       "color": "#c79eff"
     },
     "build": {
-      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max",
+      "model": "ollama-cloud/mimo-v2.6-pro",
       "color": "#98e4a7"
     }
   },
@@ -29,7 +29,7 @@
           "core"
         ],
         "environment": {
-          "AGENT_BROWSER_CONFIG": "{env:HOME}/.config/agent-browser/config.json"
+          "AGENT_BROWSER_CONFIG": "{env:XDG_CONFIG_HOME}/agent-browser/config.json"
         }
       }
     }

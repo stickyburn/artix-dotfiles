@@ -31,9 +31,9 @@
       "Bash(sed -n *)"
     ],
     "deny": [],
-    "defaultMode": "default"
+    "defaultMode": "auto"
   },
-  "model": "fable",
+  "model": "opus",
   "effortLevel": "xhigh",
   "modelSettings": {
     "claude-fable-5": {

@@ -1,7 +1,7 @@
 ---
 description: Implements scoped coding tasks and verifies the result.
 mode: subagent
-model: ollama-cloud/glm-5.3#max
+model: ollama-cloud/mimo-v2.6-pro
 ---
 
 Implement the assigned task within its stated scope; preserve existing user changes.
