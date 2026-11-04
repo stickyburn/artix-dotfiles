@@ -28,14 +28,11 @@
   // search
   "search.exclude": {
     "**-lock.yaml": true,
-    "**/*.cjs": true,
     "**/*.svg": true,
     "**/.cache": true,
     "**/.next": true,
     "**/@remote-types": true,
     "**/cache": true,
-    "**/commit-msg": true,
-    "**/dependabot.yml": true,
     "**/dist": true,
     "**/node_modules": true,
     "**/static": true,
@@ -120,6 +117,7 @@
       "editor.selectionBackground": "#e9defd",
       "editorCursor.foreground": "#bf1d68",
       "editorGroupHeader.tabsBackground": "#eee9ff",
+      "editorGroupHeader.connectedTabsBackground": "#eee9ff",
       "editorGroup.emptyBackground": "#eee9ff",
       "editorOverviewRuler.border": "#eee9ff",
       "editorSuggestWidget.border": "#7740aa",
@@ -197,6 +195,7 @@
       "editor.selectionBackground": "#22112A",
       "editorCursor.foreground": "#ff338f",
       "editorGroupHeader.tabsBackground": "#18111b",
+      "editorGroupHeader.connectedTabsBackground": "#18111b",
       "editorGroup.emptyBackground": "#18111b",
       "editorOverviewRuler.border": "#18111b",
       "editorSuggestWidget.border": "#2a1d31",
@@ -394,4 +393,5 @@
     "refyne": "linux",
     "runpod": "linux"
   },
+  "workbench.statusBar.visible": false,
 }
