@@ -1,11 +1,11 @@
 /* Generated from hyprway. */
 @define-color background #18111b;
-@define-color panel_bg #181420;
-@define-color elevated_bg #181420;
-@define-color selection_bg #22112A;
+@define-color panel_bg #1d1522;
+@define-color elevated_bg #1d1522;
+@define-color selection_bg #26162e;
 @define-color border #2a1d31;
 @define-color foreground #d8d0ea;
-@define-color foreground_muted #c4b6dd;
+@define-color foreground_muted #9d92b0;
 @define-color accent #ff91c3;
 @define-color danger #ff338f;
 @define-color focus #c79eff;
@@ -13,5 +13,5 @@
 @define-color on_accent #2a1d31;
 
 :root {
-  --noti-bg: 24, 20, 32;
+  --noti-bg: 29, 21, 34;
 }

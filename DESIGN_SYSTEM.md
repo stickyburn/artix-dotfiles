@@ -32,9 +32,14 @@ with contrast-adjusted foregrounds (`*_light`).
 - Violet-filled focused options need contrasting `on_accent` text. Preserve
   syntax/diff foregrounds with subtle text selections instead. LazyGit inside
   Neovim uses mint tint in light mode to distinguish selection from its float.
-- Pink and mint are accents, not generic hover backgrounds. `mint_tint` is a
-  light background, not a foreground green. Terminal green/cyan share mint;
-  Yazi inherits terminal colors alongside its mode-specific flavor.
+- Pink and mint are accents, not generic hover backgrounds. `mint_tint` is the
+  soft bright tier (light diff/selection backgrounds, bright white) and never a
+  foreground green. `muted` is the dimmed text tier and must stay clearly below
+  `text` so autosuggestions and secondary text read as ghost text; keep it
+  desaturated so UI chrome (statuslines, placeholders) recedes instead of
+  tinting purple. Terminal
+  green/cyan share mint; Yazi inherits terminal colors alongside its
+  mode-specific flavor.
 - Share colors only. Typography, spacing, radii, opacity and motion stay local
   to each application.
 

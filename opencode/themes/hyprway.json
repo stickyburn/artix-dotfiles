@@ -102,7 +102,7 @@
         "hunkHeader": "#c79eff"
       },
       "background": {
-        "added": "#22112A",
+        "added": "#26162e",
         "removed": "#2a1d31",
         "context": "#18111b"
       },
@@ -113,7 +113,7 @@
       "lineNumber": {
         "text": "#ff91c3",
         "background": {
-          "added": "#22112A",
+          "added": "#26162e",
           "removed": "#2a1d31"
         }
       }
@@ -127,7 +127,7 @@
       "number": "#ff338f",
       "type": "#98e4a7",
       "operator": "#c79eff",
-      "punctuation": "#c4b6dd"
+      "punctuation": "#9d92b0"
     },
     "markdown": {
       "text": "#d8d0ea",
@@ -143,7 +143,7 @@
       "listEnumeration": "#c79eff",
       "image": "#98e4a7",
       "imageText": "#c79eff",
-      "codeBlock": "#c4b6dd"
+      "codeBlock": "#9d92b0"
     },
     "@dialog": {
       "background": {
@@ -161,11 +161,11 @@
       "gray": {
         "100": "#d8d0ea",
         "200": "#d8d0ea",
-        "300": "#cec3e4",
-        "400": "#c4b6dd",
-        "500": "#6e657f",
-        "600": "#181420",
-        "700": "#181420",
+        "300": "#bbb1cd",
+        "400": "#9d92b0",
+        "500": "#5d5469",
+        "600": "#1d1522",
+        "700": "#1d1522",
         "800": "#18111b",
         "900": "#18111b"
       },
@@ -238,9 +238,9 @@
         "200": "#1F1221",
         "300": "#251829",
         "400": "#2a1d31",
-        "500": "#8a7e97",
-        "600": "#e9defd",
-        "700": "#e9defd",
+        "500": "#857494",
+        "600": "#e0caf6",
+        "700": "#e0caf6",
         "800": "#eee9ff",
         "900": "#eee9ff"
       },
@@ -407,7 +407,7 @@
       },
       "background": {
         "added": "#dffff8",
-        "removed": "#ffeef2",
+        "removed": "#e0caf6",
         "context": "#eee9ff"
       },
       "highlight": {
@@ -418,7 +418,7 @@
         "text": "#a62d68",
         "background": {
           "added": "#dffff8",
-          "removed": "#ffeef2"
+          "removed": "#e0caf6"
         }
       }
     },

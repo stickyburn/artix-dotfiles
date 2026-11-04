@@ -2,9 +2,9 @@
 
 /* Generated from hyprway. */
 @define-color background #eee9ff;
-@define-color panel_bg #e9defd;
-@define-color elevated_bg #e9defd;
-@define-color selection_bg #e9defd;
+@define-color panel_bg #e0caf6;
+@define-color elevated_bg #e0caf6;
+@define-color selection_bg #e0caf6;
 @define-color border #7740aa;
 @define-color foreground #1F1221;
 @define-color foreground_muted #2a1d31;

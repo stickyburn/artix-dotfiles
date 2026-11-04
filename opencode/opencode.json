@@ -69,5 +69,10 @@
     { "action": "shell", "resource": "git rev-parse *", "effect": "allow" },
     { "action": "shell", "resource": "gh pr view *", "effect": "allow" },
     { "action": "shell", "resource": "sed -n *", "effect": "allow" }
-  ]
+  ],
+  "experimental": {
+    "todo": true,
+    "artifacts": true,
+    "subagent_depth": 2
+  }
 }

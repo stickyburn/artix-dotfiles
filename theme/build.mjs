@@ -217,11 +217,11 @@ color7 ${color("text")}
 color8 ${color("muted")}
 color9 ${color("signal")}
 color10 ${color("mint")}
-color11 ${color("soft")}
+color11 ${color("mint_tint")}
 color12 ${color("violet")}
 color13 ${color("pink")}
 color14 ${color("mint")}
-color15 ${color("soft")}
+color15 ${color("mint_tint")}
 
 active_tab_foreground ${role("on_accent")}
 active_tab_background ${role("focus")}
@@ -417,7 +417,7 @@ function renderOpenCode() {
     const violet = c("violet", "violet_light");
     const text = c("text", "text_light");
     const muted = c("muted", "edge");
-    const diffBg = { added: c("surface", "mint_tint"), removed: c("edge", "soft") };
+    const diffBg = { added: c("surface", "mint_tint"), removed: c("edge", "lavender_light") };
     return {
       hue: {
         gray: Object.fromEntries(steps.map((step, index) => [step, [
@@ -539,12 +539,12 @@ function renderClaude(scheme = "dark") {
   const token = {
     claude: "violet", claudeShimmer: "mint",
     claudeBlue_FOR_SYSTEM_SPINNER: "violet", claudeBlueShimmer_FOR_SYSTEM_SPINNER: "mint",
-    text: "text", inverseText: "background", inactive: "pink", inactiveShimmer: "soft",
+    text: "text", inverseText: "background", inactive: "pink", inactiveShimmer: "mint_tint",
     subtle: "violet", suggestion: "mint", permission: "violet", permissionShimmer: "mint",
     remember: "mint", background: roles.background, success: "mint", error: "signal",
-    warning: "signal", warningShimmer: "soft", merged: "mint", promptBorder: "pink",
+    warning: "signal", warningShimmer: "mint_tint", merged: "mint", promptBorder: "pink",
     promptBorderShimmer: "mint", planMode: "mint", autoAccept: "mint", bashBorder: "pink",
-    ide: "mint", fastMode: "pink", fastModeShimmer: "soft", diffAdded: "surface",
+    ide: "mint", fastMode: "pink", fastModeShimmer: "mint_tint", diffAdded: "surface",
     diffRemoved: "edge", diffAddedDimmed: roles.elevated_bg, diffRemovedDimmed: roles.panel_bg,
     diffAddedWord: "mint", diffRemovedWord: "signal", userMessageBackground: roles.elevated_bg,
     userMessageBackgroundHover: "surface", messageActionsBackground: "surface",
@@ -552,21 +552,21 @@ function renderClaude(scheme = "dark") {
     selectionBg: roles.selection_bg, rate_limit_fill: "violet", rate_limit_empty: "edge",
     briefLabelYou: "pink", briefLabelClaude: "violet", professionalBlue: "violet",
     chromeYellow: "pink", clawd_body: "violet", clawd_background: "background",
-    rainbow_red: "signal", rainbow_orange: "pink", rainbow_yellow: "soft",
+    rainbow_red: "signal", rainbow_orange: "pink", rainbow_yellow: "mint_tint",
     rainbow_green: "mint", rainbow_blue: "mint", rainbow_indigo: "violet",
-    rainbow_violet: "violet", rainbow_red_shimmer: "pink", rainbow_orange_shimmer: "soft",
-    rainbow_yellow_shimmer: "soft", rainbow_green_shimmer: "mint",
+    rainbow_violet: "violet", rainbow_red_shimmer: "pink", rainbow_orange_shimmer: "mint_tint",
+    rainbow_yellow_shimmer: "mint_tint", rainbow_green_shimmer: "mint",
     rainbow_blue_shimmer: "mint", rainbow_indigo_shimmer: "violet",
     rainbow_violet_shimmer: "violet", red_FOR_SUBAGENTS_ONLY: "signal",
     blue_FOR_SUBAGENTS_ONLY: "mint", green_FOR_SUBAGENTS_ONLY: "mint",
-    yellow_FOR_SUBAGENTS_ONLY: "soft", purple_FOR_SUBAGENTS_ONLY: "violet",
+    yellow_FOR_SUBAGENTS_ONLY: "mint_tint", purple_FOR_SUBAGENTS_ONLY: "violet",
     orange_FOR_SUBAGENTS_ONLY: "pink", pink_FOR_SUBAGENTS_ONLY: "pink",
     cyan_FOR_SUBAGENTS_ONLY: "mint",
   };
   if (scheme === "light") {
     const lightTokens = {
       background: "background_light", panel: "lavender_light", surface: "lavender_light",
-      edge: "lavender_light", text: "text_light", pink: "pink_light", soft: "pink_light",
+      edge: "lavender_light", text: "text_light", pink: "pink_light", mint_tint: "pink_light",
       signal: "signal_light", violet: "violet_light", mint: lightRoles.focus,
     };
     for (const name of Object.keys(token)) {
@@ -582,9 +582,9 @@ function renderClaude(scheme = "dark") {
       messageActionsBackground: lightRoles.elevated_bg,
       bashMessageBackgroundColor: lightRoles.panel_bg,
       memoryBackgroundColor: lightRoles.elevated_bg, selectionBg: lightRoles.selection_bg,
-      diffAdded: "mint_tint", diffRemoved: "soft",
+      diffAdded: "mint_tint", diffRemoved: "lavender_light",
       diffAddedDimmed: lightRoles.elevated_bg, diffRemovedDimmed: lightRoles.panel_bg,
-      diffAddedWord: "mint_tint", diffRemovedWord: "soft",
+      diffAddedWord: "mint_tint", diffRemovedWord: "pink_light",
     });
   }
   return JSON.stringify({

@@ -7,8 +7,8 @@ local terminal = {
   dark = {
     p.background, p.signal, p.mint, p.pink,
     p.violet, p.pink, p.mint, p.text,
-    p.soft, p.signal, p.mint, p.soft,
-    p.violet, p.pink, p.mint, p.soft,
+    p.muted, p.signal, p.mint, p.mint_tint,
+    p.violet, p.pink, p.mint, p.mint_tint,
   },
   light = {
     p.background, p.signal_light, p.mint_light, p.pink_light,

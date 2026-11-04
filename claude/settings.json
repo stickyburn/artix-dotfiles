@@ -50,8 +50,9 @@
     }
   },
   "promptSuggestionEnabled": false,
+  "awaySummaryEnabled": false,
   "showThinkingSummaries": true,
   "skipWorkflowUsageWarning": true,
-  "theme": "custom:hyprway-light",
+  "theme": "custom:hyprway",
   "verbose": false
 }

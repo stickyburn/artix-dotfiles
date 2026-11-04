@@ -1,12 +1,11 @@
 {
   "colors": {
     "background": "#18111b",
-    "panel": "#181420",
-    "surface": "#22112A",
+    "panel": "#1d1522",
+    "surface": "#26162e",
     "edge": "#2a1d31",
     "text": "#d8d0ea",
-    "muted": "#c4b6dd",
-    "soft": "#ffeef2",
+    "muted": "#9d92b0",
     "pink": "#ff91c3",
     "signal": "#ff338f",
     "violet": "#c79eff",
@@ -18,7 +17,7 @@
     "violet_light": "#7740aa",
     "mint_light": "#197344",
     "signal_light": "#bf1d68",
-    "lavender_light": "#e9defd"
+    "lavender_light": "#e0caf6"
   },
   "roles": {
     "background": "background",
