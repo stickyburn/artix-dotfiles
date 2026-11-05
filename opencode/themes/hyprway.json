@@ -238,9 +238,9 @@
         "200": "#1F1221",
         "300": "#251829",
         "400": "#2a1d31",
-        "500": "#857494",
-        "600": "#e0caf6",
-        "700": "#e0caf6",
+        "500": "#8c7f97",
+        "600": "#eee1fc",
+        "700": "#eee1fc",
         "800": "#eee9ff",
         "900": "#eee9ff"
       },
@@ -407,7 +407,7 @@
       },
       "background": {
         "added": "#dffff8",
-        "removed": "#e0caf6",
+        "removed": "#eee1fc",
         "context": "#eee9ff"
       },
       "highlight": {
@@ -418,7 +418,7 @@
         "text": "#a62d68",
         "background": {
           "added": "#dffff8",
-          "removed": "#e0caf6"
+          "removed": "#eee1fc"
         }
       }
     },

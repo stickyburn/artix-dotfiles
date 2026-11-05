@@ -21,7 +21,7 @@ window#waybar.hidden {
 .modules-left,
 .modules-center,
 #telemetry {
-  background: @panel_bg;
+  background: @background;
   border: 1px solid @border;
   border-radius: 8px;
   margin-top: 4px;
@@ -160,7 +160,7 @@ window#waybar.hidden {
 }
 
 #custom-window {
-  background: @panel_bg;
+  background: @background;
   color: @foreground_muted;
   border: 1px solid @border;
   border-radius: 8px;
