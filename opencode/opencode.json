@@ -1,16 +1,31 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "default_agent": "build",
+  "providers": {
+    "openai": {
+      "models": {
+        "gpt-6-astra-fast": {
+          "disabled": true
+        }
+      }
+    }
+  },
   "agents": {
     "title": {
-      "model": "ollama-cloud/mimo-v2.6-pro"
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017"
+    },
+    "summary": {
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max"
+    },
+    "compaction": {
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max"
     },
     "plan": {
-      "model": "ollama-cloud/mimo-v2.6-pro",
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max",
       "color": "#c79eff"
     },
     "build": {
-      "model": "ollama-cloud/mimo-v2.6-pro",
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max",
       "color": "#98e4a7"
     }
   },

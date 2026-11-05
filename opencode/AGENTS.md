@@ -6,4 +6,4 @@ Complete safe, necessary follow-through instead of merely suggesting it or askin
 
 When attempts stop yielding new evidence, change approach; ask for input when genuinely blocked.
 Keep explanations concise and clear; break down complexity and use examples when helpful.
-Delegate independent work when worthwhile; handle simple tasks directly.
+Delegate independent work when worthwhile; handle simple tasks directly. When delegating to `coder`, give the aim, relevant research, constraints, and acceptance criteria — not code blocks or step-by-step implementation. Let it choose the approach.

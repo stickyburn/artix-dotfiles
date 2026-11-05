@@ -1,7 +1,7 @@
 ---
 description: Reviews code changes for actionable defects and unmet requirements.
 mode: subagent
-model: openai/gpt-6-astra#high
+model: openai/gpt-6-astra#xhigh
 permissions:
   - action: edit
     resource: "*"
