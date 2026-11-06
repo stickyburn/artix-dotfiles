@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# GTK theme
-gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'
-
 # system light/dark preference (New Delhi sunrise/sunset)
 darkman run >/dev/null 2>&1 &
 

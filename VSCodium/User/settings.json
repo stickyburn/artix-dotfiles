@@ -348,7 +348,7 @@
     "[Visual Studio Dark]": {
       "enabled": true,
       "rules": {
-        "*": "#dffff8",
+        "*": "#d8d0ea",
         "comment": {
           "foreground": "#c79eff",
           "italic": true

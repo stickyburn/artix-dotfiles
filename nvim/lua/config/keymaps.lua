@@ -7,6 +7,14 @@ local map = vim.keymap.set
 -- platform-aware modifier: <D-...> (Cmd) on macOS, <C-...> (Ctrl) elsewhere
 local mod = vim.fn.has("macunix") == 1 and "D" or "C"
 
+-- ── Registers ───────────────────────────────────────────────
+-- Don't let normal-mode deletes (dw, dd, d$, dG, ...) overwrite the
+-- unnamed/clipboard register. Visual-mode deletes still yank as usual,
+-- and an explicit register (e.g. `"adw`) keeps its normal behavior.
+map("n", "d", function()
+  return vim.v.register == '"' and '"_d' or "d"
+end, { expr = true, desc = "Delete without yanking" })
+
 -- quickly open command
 map("n", ";", ":", { desc = "CMD enter command mode" })
 

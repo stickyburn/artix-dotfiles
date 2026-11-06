@@ -1,7 +1,7 @@
 ---
 description: Implements scoped coding tasks and verifies the result.
 mode: subagent
-model: openai/gpt-6-astra#xhigh
+model: openai/gpt-6-astra#max
 ---
 
 Implement the assigned task within its stated scope; preserve existing user changes.
