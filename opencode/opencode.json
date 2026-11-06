@@ -6,13 +6,13 @@
       "model": "ollama-cloud/deepseek-v4.1-flash:1017"
     },
     "summary": {
-      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max"
+      "model": "ollama-cloud/deepseek-v4.1-flash:1017"
     },
     "compaction": {
-      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max"
+      "model": "openai/gpt-6.1-sol#high"
     },
     "plan": {
-      "model": "ollama-cloud/deepseek-v4.1-flash:1017#max",
+      "model": "openai/gpt-6.1-sol#high",
       "color": "#c79eff"
     },
     "build": {
