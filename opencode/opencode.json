@@ -76,6 +76,9 @@
     { "action": "shell", "resource": "gh pr view *", "effect": "allow" },
     { "action": "shell", "resource": "sed -n *", "effect": "allow" }
   ],
+  "websearch": {
+    "provider": "random"
+  },
   "experimental": {
     "todo": true,
     "artifacts": true,
