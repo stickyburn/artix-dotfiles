@@ -9,10 +9,10 @@
       "model": "ollama-cloud/deepseek-v4.1-flash:1017"
     },
     "compaction": {
-      "model": "openai/gpt-6.1-sol#high"
+      "model": "openai/gpt-6.1-sol#xhigh"
     },
     "plan": {
-      "model": "openai/gpt-6.1-sol#high",
+      "model": "openai/gpt-6.1-sol#xhigh",
       "color": "#c79eff"
     },
     "build": {
