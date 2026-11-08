@@ -27,6 +27,9 @@ return {
         cssls = {
           mason = false,
         },
+        jsonls = {
+          mason = false,
+        },
         tailwindcss = {
           mason = false,
         },
