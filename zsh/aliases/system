@@ -1,6 +1,7 @@
 alias grep='rg'
 alias l='ls -a'
 alias e='yazi'
+alias claude-personal='CLAUDE_CONFIG_DIR="$XDG_CONFIG_HOME/claude-personal" claude'
 
 rpull() { rclone sync "$1" "$2" --filter-from ~/.config/rclone/filters.txt --progress; }
 rpush() { rclone copy "$1" "$2" --filter-from ~/.config/rclone/filters.txt --progress; }
