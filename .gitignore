@@ -86,3 +86,5 @@ zsh/db.zo
 rclone/rclone.conf
 zsh/secrets/secrets.zsh
 opencode/service*.json
+opencode/auth*.json
+**/.npmrc
