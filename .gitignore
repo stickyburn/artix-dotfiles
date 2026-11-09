@@ -47,32 +47,32 @@ VSCodium/User/chatLanguageModels.json
 codex
 Codex
 
-# ── claude ─────────────────────────
-claude/.credentials.json
-claude/.claude.json
-claude/history.jsonl
-claude/projects/
-claude/plans/
-claude/file-history/
-claude/sessions/
-claude/session-env/
-claude/shell-snapshots/
-claude/cache/
-claude/backups/
-claude/plugins/
+# claude
+claude*/.credentials.json
+claude*/.claude.json*
+claude*/history.jsonl
+claude*/projects/
+claude*/plans/
+claude*/file-history/
+claude*/sessions/
+claude*/session-env/
+claude*/shell-snapshots/
+claude*/cache/
+claude*/backups/
+claude*/plugins/
 # runtime junk
-claude/.last-cleanup
-claude/.last-update-result.json
-claude/policy-limits.json
-claude/policy-limits.json.*
-claude/remote-settings.json
-claude/remote-settings.json.*
-claude/paste-cache/
-claude/skills/synced/
-claude/daemon*
-claude/jobs/
-claude/state/
-claude/telemetry/
+claude*/.last-cleanup
+claude*/.last-update-result.json
+claude*/policy-limits.json
+claude*/policy-limits.json.*
+claude*/remote-settings.json
+claude*/remote-settings.json.*
+claude*/paste-cache/
+claude*/skills/synced/
+claude*/daemon*
+claude*/jobs/
+claude*/state/
+claude*/telemetry/
 
 # ── zsh ──────────────────────────────────────────
 zsh/.z

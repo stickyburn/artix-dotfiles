@@ -51,6 +51,7 @@
   },
   "promptSuggestionEnabled": false,
   "awaySummaryEnabled": false,
+  "autoUpdatesChannel": "latest",
   "showThinkingSummaries": true,
   "skipWorkflowUsageWarning": true,
   "theme": "custom:hyprway",
